@@ -39,6 +39,7 @@ $(document).ready(function() {
     function initAll() {
         initAccordion();
         initTooltips();
+        if (window.initPdfLinks) initPdfLinks();
     }
 
     // start in Ukrainian
